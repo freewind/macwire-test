@@ -3,9 +3,14 @@ package my
 class GroupService {
   def h() = "Hello"
 }
+
+class TTT {}
+
 class UserService {
   def w() = "world"
 }
+
+class III {}
 
 class User(groupService: GroupService)(userService: UserService) {
   def hello = groupService.h() + userService.w()
