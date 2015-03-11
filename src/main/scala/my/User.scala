@@ -10,6 +10,8 @@ class UserService {
   def w() = "world"
 }
 
+class LLL {}
+
 class III {}
 
 class User(groupService: GroupService)(userService: UserService) {
